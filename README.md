@@ -9,7 +9,7 @@ Librería dx para Multi Thef Auto  - San Andreas:
 Funcion
 =======
 
-```element dxDrawButton(string  text = “”, float posX = 0, float posY = 0, float sizeX = 100,  float sizeY = 50, color color = tocolor(255,255,255,255), font = "default", float textScale =  1, image image = false)```
+```object dxDrawButton(string  text = “”, float posX = 0, float posY = 0, float sizeX = 100,  float sizeY = 50, color color = tocolor(255,255,255,255), font = "default", float textScale =  1, image image = false)```
 
 Argumentos
 ----------
@@ -32,20 +32,20 @@ Argumentos
   "diploma": Diploma Regular
   "beckett": Beckett Regular
 ```
-* textScale: Tamaho del texto.
-* image: elemento tipo imagen, el cual 	debe ser declarado en el meta.xml
+* textScale: Tamaño del texto.
+* image: Elemento tipo imagen, el cual 	debe ser declarado en el meta.xml
   
 OPP
 ---
 
-```bool element.isCursorInside()```
+```bool object.isCursorInside()```
 * Retorna true si el cursor esta sobre el botón
   
-```bool element.isClicked()```
+```bool object.isClicked()```
 * Retorna true si el botón es clickeado
 
-```bool element.isVisible()```
+```bool object.isVisible()```
 * Retorna true si el botón está activo y visible.
   
-```void element.setVisible(bool value)```
+```void object.setVisible(bool value)```
 * Asigna un valor para hacer el botón activo y visible.(por defecto se crea visible)
